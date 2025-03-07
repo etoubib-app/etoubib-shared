@@ -1,0 +1,30 @@
+{
+  "name": "etoubib-shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --dts"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etoubib-app/etoubib-shared.git"
+  },
+  "keywords": [],
+  "author": "etoubib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etoubib-app/etoubib-shared/issues"
+  },
+  "homepage": "https://github.com/etoubib-app/etoubib-shared#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
