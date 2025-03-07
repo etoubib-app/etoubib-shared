@@ -18,6 +18,9 @@ jobs:
           node-version: 22.14.0
           registry-url: "https://registry.npmjs.org/"
 
+      - name: Configure npm authentication
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+
       - name: Install Dependencies
         run: npm ci
 
