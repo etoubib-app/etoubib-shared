@@ -1,4 +1,4 @@
-import { ResourceAuthorizations } from "../types";
+import { ResourceAuthorizations } from "../../shared";
 
 export type IClientRole = {
   id: string;

@@ -1,4 +1,4 @@
-import { ResourceAuthorizations } from "../types";
+import { ResourceAuthorizations } from "../../shared";
 
 export type RouteTypes = "link" | "collapse" | "sous-collapse" | "collapse-link";
 
