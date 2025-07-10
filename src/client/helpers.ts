@@ -1,10 +1,4 @@
-import { Resource } from "./config";
-import { RESOURCE_AUTHORISATION_MAP } from "./constants";
-import {
-  AuthorizationsInResource,
-  AuthorizationsPerResource,
-  ResourceAuthorizations,
-} from "./types";
+import { AuthorizationsInResource, AuthorizationsPerResource, Resource, RESOURCE_AUTHORISATION_MAP } from "../shared";
 
 
 
